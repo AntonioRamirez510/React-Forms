@@ -1,3 +1,37 @@
+body{
+  background-color: black;
+}
 #root {
   text-align: center;
+}
+
+*{
+  border-radius: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+  background-color: rgb(181, 243, 222);
+  border: orange thick solid;
+}
+input{
+  border: black thin solid;
+}
+input:hover{
+  border: orange thin solid;
+}
+
+button{
+  border:thin black solid;
+}
+button:hover{
+  border:thin orange solid;
+  color: orange;
+}
+
+#error{
+  color: red;
+}
+
+#success{
+  color:forestgreen;
 }
